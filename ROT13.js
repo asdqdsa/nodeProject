@@ -31,4 +31,6 @@ function rot13(message){
 	}
 	return result;
 }
-rot13('t!Est');
+const message = 'Testing 1!t wo th!!ee';
+const result = rot13(message);
+console.log(message, '->', result);

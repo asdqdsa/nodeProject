@@ -10,7 +10,7 @@
 
 var numberToPrice = function(number) {
 
-  if (!Number.isFinite(number)) return ; 'NaN';
+  if (!Number.isFinite(number)) return 'NaN';
 
   let resultA = String(number)
 	.split('.')[0]
@@ -30,3 +30,4 @@ var numberToPrice = function(number) {
 
 const number = '1000000.5';
 numberToPrice(number);
+//  let qqq = numberToPrice(number);

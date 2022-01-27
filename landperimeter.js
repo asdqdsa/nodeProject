@@ -26,6 +26,7 @@ function landPerimeter(arr) {
       transArr[convertArr[i].length - 1 - j].push(convertArr[i][j])
     }
   }
+  console.log('hi')
   return 'Total land perimeter: ' + transArr.map(row => getNeighborCount(row))
 		.slice(0, convertArr[0].length).reverse().map(e => e.reverse())
 		.map(e => e.reduce((curr, next) => +curr + +next))
